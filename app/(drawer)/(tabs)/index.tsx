@@ -1,6 +1,7 @@
 import { Stack } from 'expo-router';
 
 import { Container } from '~/components/Container';
+import { NewMeal } from '~/components/NewMeal';
 import { ScreenContent } from '~/components/ScreenContent';
 
 export default function Home() {
@@ -8,7 +9,7 @@ export default function Home() {
     <>
       <Stack.Screen options={{ title: 'Tab One' }} />
       <Container>
-        <ScreenContent path="app/(drawer)/(tabs)/index.tsx" title="Tab One" />
+        <NewMeal />
       </Container>
     </>
   );
