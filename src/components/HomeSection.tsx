@@ -13,9 +13,9 @@ export function HomeSection() {
                 <Text className="text-6xl font-bold -mt-2">90,86%</Text>
                 <Text className="text-lg">das refeições dentro da dieta</Text>
             </View>
-            <View >
-                <Text>Refeições</Text>
-                <Pressable className="w-full bg-zinc-900 rounded-md py-6 flex flex-row items-center justify-center">
+            <View className="flex gap-3 my-4">
+                <Text className="text-2xl font-semibold">Refeições</Text>
+                <Pressable className="w-full bg-zinc-900 rounded-md py-6 flex flex-row items-center justify-center gap-2">
                     <Feather name="plus" size={24} color="#fafafa" />
                     <Text className="text-neutral-50">Nova refeição</Text>
                 </Pressable>

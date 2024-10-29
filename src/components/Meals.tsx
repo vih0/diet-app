@@ -1,6 +1,6 @@
 import { ScrollView } from "react-native";
 
-import { Meal } from "~/types/Meal";
+import { Meal } from "~/src/types/Meal";
 import { ListMeal } from "./Meal";
 
 const mockMeals = [

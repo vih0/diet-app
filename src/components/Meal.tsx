@@ -1,5 +1,5 @@
 import { Text, View } from "react-native";
-import { Meal } from "~/types/Meal";
+import { Meal } from "~/src/types/Meal";
 
 type Props = {
     data: Meal

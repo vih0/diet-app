@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { createClient } from '@supabase/supabase-js';
-import { Meal } from '~/types/Meal';
+import { Meal } from '~/src/types/Meal';
 
 
 const supabaseUrl = process.env.EXPO_PUBLIC_SUPABASE_URL as string;
